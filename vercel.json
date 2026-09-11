@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "env": {
+    "GROQ_API_KEY": {
+      "description": "Groq API Key for AI backend"
+    },
+    "GROQ_API_ENDPOINT": {
+      "description": "Groq API Endpoint"
+    },
+    "GROQ_MODEL_PRIMARY": {
+      "description": "Primary AI Model"
+    },
+    "GROQ_MODEL_SECONDARY": {
+      "description": "Secondary AI Model (Fallback)"
+    }
+  }
+}
